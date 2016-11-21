@@ -17,14 +17,14 @@ body { height: 100%; width: 100%;}
 body { @include sans-serif-font;}
 h1, h2, h3, h4, h5, h6 { @include sans-serif-font; }
 
-/* Vertical Centering 
+//Vertical Centering 
 .vcenter {
     display: inline-block;
     vertical-align: middle;
     float: none;
-}*/
+}
 
-.chris { max-height: 400px }
+.chris { max-height: 400px; margin: 0 auto; }
 // --------------------  Label ------------------
 
 .label.stack { 

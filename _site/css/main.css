@@ -21,14 +21,14 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
-/* Vertical Centering 
 .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}*/
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
+
 .chris {
-  max-height: 400px; }
+  max-height: 400px;
+  margin: 0 auto; }
 
 .label.stack {
   margin: 7px;
