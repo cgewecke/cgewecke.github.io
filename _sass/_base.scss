@@ -13,7 +13,7 @@ background-image: url('../img/header.jpg');
 
 // --------------------  Top ------------------
 html,
-body { height: 100%; width: 100%;}
+body { height: 100%; width: 100%; font-size: 16px;}
 body { @include sans-serif-font;}
 h1, h2, h3, h4, h5, h6 { @include sans-serif-font; }
 
@@ -99,6 +99,12 @@ a {
     &:focus {
         color: darken($theme-primary, 10%);
     }
+}
+
+.repo {
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 1.9;
 }
 
 
