@@ -12,10 +12,12 @@ background-image: url('../img/header.jpg');
 */
 
 // --------------------  Top ------------------
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 html,
-body { height: 100%; width: 100%; font-size: 16px;}
-body { @include sans-serif-font;}
-h1, h2, h3, h4, h5, h6 { @include sans-serif-font; }
+body { height: 100%; width: 100%; font-size: 16px; color: #ff5722}
+body { font-family: 'Space Mono', monospace;}
+
 
 //Vertical Centering 
 .vcenter {
@@ -24,7 +26,17 @@ h1, h2, h3, h4, h5, h6 { @include sans-serif-font; }
     float: none;
 }
 
-.chris { max-height: 400px; margin: 0 auto; }
+.chris { max-height: 400px; margin: 0 auto;}
+.title { padding-bottom: 40px; }
+
+.open-source { 
+    display: flex;
+    align-items: center; 
+}
+
+.open-source > i {
+    padding-right: 10px;
+}
 // --------------------  Label ------------------
 
 .label.stack { 
@@ -40,9 +52,6 @@ h1, h2, h3, h4, h5, h6 { @include sans-serif-font; }
 }
 
 .label.light{
-    //border-color: white !important;
-    //color: white !important;
-    //font-weight: 700;
     opacity: 1;
 }
 
@@ -102,7 +111,7 @@ a {
 }
 
 .repo {
-    text-decoration: underline;
+    //text-decoration: underline;
     font-weight: bold;
     line-height: 1.9;
 }

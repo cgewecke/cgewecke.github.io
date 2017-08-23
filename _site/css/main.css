@@ -10,17 +10,16 @@ background-position: center;
 background-image: url('../img/header.jpg');
 
 */
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
 html,
 body {
   height: 100%;
   width: 100%;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #ff5722; }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Space Mono', monospace; }
 
 .vcenter {
   display: inline-block;
@@ -30,6 +29,16 @@ h1, h2, h3, h4, h5, h6 {
 .chris {
   max-height: 400px;
   margin: 0 auto; }
+
+.title {
+  padding-bottom: 40px; }
+
+.open-source {
+  display: flex;
+  align-items: center; }
+
+.open-source > i {
+  padding-right: 10px; }
 
 .label.stack {
   margin: 7px;
@@ -110,7 +119,6 @@ a {
     color: #858585; }
 
 .repo {
-  text-decoration: underline;
   font-weight: bold;
   line-height: 1.9; }
 
