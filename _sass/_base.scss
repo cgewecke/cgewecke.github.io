@@ -35,7 +35,8 @@ body { font-family: 'Space Mono', monospace;}
 }
 
 .open-source > i {
-    padding-right: 10px;
+    padding-right: 15px;
+    opacity: .8;
 }
 // --------------------  Label ------------------
 
@@ -245,6 +246,7 @@ aside { padding: 50px 0;}
 .section-chris{
     padding-top: 50px;
     padding-bottom: 50px;
+    border-bottom: solid 2px #ddd;
 }
 section.call-to-action {
     padding: 50px 0;

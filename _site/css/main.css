@@ -38,7 +38,8 @@ body {
   align-items: center; }
 
 .open-source > i {
-  padding-right: 10px; }
+  padding-right: 15px;
+  opacity: .8; }
 
 .label.stack {
   margin: 7px;
@@ -268,7 +269,8 @@ aside {
 
 .section-chris {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  border-bottom: solid 2px #ddd; }
 
 section.call-to-action {
   padding: 50px 0; }
